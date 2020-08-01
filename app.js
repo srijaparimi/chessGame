@@ -109,5 +109,7 @@ function moveQueen(direction, steps) {
             }
             break;
     }
-    console.log(queen.position);
+    console.log(queen.position.row);
+    console.log(queen.position.column);
+    console.log(board[queen.position.row][queen.position.column]);
 }
